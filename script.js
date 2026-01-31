@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Yes, I love you too!";
+    question.innerHTML = "Haha, You must buy me tacos now!";
     gif.src = "peach-goma-love.gif";
 });
 
@@ -20,4 +20,5 @@ noBtn.addEventListener('mouseover', () => {
     noBtn.style.position = 'absolute';
     noBtn.style.left = randomX + 'px';
     noBtn.style.top = randomY + 'px';
+
 });
